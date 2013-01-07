@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir photos_en
+node pics resize 1920 1280 photos photos_en
+cp -r photos_en photos_cn
+node pics logoize en_tp_tp_130.png photos_en photos_en --bottom 30 --right 30
+node pics logoize cn_tp_tp_130.png photos_cn photos_cn --bottom 30 --right 30
