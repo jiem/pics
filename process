@@ -1,5 +1,3 @@
-#!/bin/bash
-
 mkdir photos_en
 node pics resize 1920 1280 photos photos_en
 cp -r photos_en photos_cn

@@ -1,0 +1,11 @@
+{
+  "name": "pics",
+  "description": "Resizing and logoizing DrinkEntrepreneurs pics",
+  "version": "0.0.1",
+  "author": "Jie Meng-Gerard <contact@jie.fr>",
+  "repository": "git://github.com/jiem/pics",  
+  "dependencies": {
+    "progress": ">=0.1.0",
+    "optimist": ">=0.3.5"
+  }
+}
